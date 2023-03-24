@@ -1,6 +1,9 @@
 #include <iostream>
 #define _USE_MATH_DEFINES
 #include <math.h>
+int square(int w, int h) {
+	return w * h;
+}
 
 int triangle(int w, int h) {
 	return w * h/2;
