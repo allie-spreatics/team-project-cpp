@@ -11,5 +11,6 @@ double circle(int r) {
 
 int main() {
 	std::cout << circle(2);
+	std::cout << circle(5);
 }
 
