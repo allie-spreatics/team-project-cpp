@@ -1,8 +1,8 @@
 #include <iostream>
 #define _USE_MATH_DEFINES
 #include <math.h>
-int triangle(int w, int h) {
-	return w * h/2;
+int square(int w, int h) {
+	return w * h;
 }
 
 double circle(int r) {
@@ -10,7 +10,6 @@ double circle(int r) {
 }
 
 int main() {
-	std::cout << circle(2);
-	std::cout << circle(5);
+	std::cout << circle(4);
 }
 
